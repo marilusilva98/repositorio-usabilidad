@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 40px;
+	font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ab9680;
+}
+	h1{
+	margin: 0.5em;
+}
+
+p {
+	margin: 1em;
+}
+
+.Producto {
+ width: 25%;
+ float: left;
+ border: 1px solid #553d2a;
+ background-color: #735945;
+ color: #fff;
+ margin: 1em;
+ height: 20em;
+ text-align: center;
+ padding: 1em;
+}
+
+
+.Precio {
+	width: 50%;
+	margin: auto;
+	background-color: #fff;
+	color: #000;
+	padding: 5px;
+}
