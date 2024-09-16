@@ -64,3 +64,105 @@ p {
 	color: #000;
 	padding: 5px;
 }
+
+
+form {
+
+    background-color:#ab9680 ;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+	max-width: 400px;
+
+    width: 100%; 
+
+    margin: 20px auto; 
+
+}
+
+
+label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #000;
+
+}
+
+
+
+input, textarea {
+
+    width: 90%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+
+
+input[type="number"], input[type="text"], input[type="email"] {
+
+    background-color: #f9f9f9;
+
+}
+
+
+
+.boton-formulario {
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: #5cb85c;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    }
+
+
+
+button:hover {
+
+    background-color: #4cae4c;
+
+}
+
+.css-button-fully-rounded--grey {
+  min-width: 150px;
+  height: 30px;
+  color: #fff;
+  padding: 7px 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #495057;
+  background: #495057;
+}
+.css-button-fully-rounded--grey:hover {
+  background: #fff;
+  color: #495057
+}
